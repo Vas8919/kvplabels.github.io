@@ -1,20 +1,32 @@
 *{
     margin: 0px;
     padding: 0px;
-    background-image: url(../media/navback.jpg);
+    background-image: url(../media/navbar.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #navg{
     height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
     width: 100%;
 }
 #list
 {
     float: right;
-}
-.ul li a
-{
+    margin-top: 30px;
+    /* padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px; */
 
+}
+ul li 
+{
+    display: inline;
+}
+ul li a
+{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: whitesmoke;
 }
