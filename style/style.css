@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../media/navback.jpg);
+    background-size: cover;
+}
+#navg{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+#list
+{
+    float: right;
+}
+.ul li a
+{
+
+}
