@@ -1,0 +1,158 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+#background{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../media/contact_background.jpg);
+    /* background-image: url(../media/contact_background.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 667px;
+}
+#navbar
+{
+    display: flex;
+}
+#webpages{
+    /* float: right; */
+    margin-left: 50%;
+    margin-top: 30px;
+}
+ul 
+{
+/* hello */
+}
+ul li
+{
+    display: inline;
+}
+ul li a 
+{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 10px;
+    transition: 0.4s ease;
+}
+
+ul li a:hover{
+    color: #000;
+    background-color: #fff;
+}
+#logo
+{
+    margin-top: 30px;
+
+}
+#title
+{
+    font-style: italic;
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px 20px;
+    background-color: white;
+}
+
+
+
+#contactus
+{
+    margin-top: 125px;
+    margin-left: 570px;
+}
+#emailp
+{
+    border: 1px solid white;
+    margin-left: 20px;
+    padding: 5px 20px;
+    background-color: white;
+    border-radius: 15px;
+    color: #000;
+}
+#phone
+{
+    margin-top: 20px;
+    padding: 5px 20px;
+    margin-left: -20px;
+}
+#phonep
+{
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    margin-left: 75px;
+    /* text-size-adjust: 20px; */
+}
+#or
+{
+    color: white;
+    margin-left: -10px;
+}
+#input
+{
+    margin-top: 30px;
+    margin-left: 530px;
+}
+.cusInput
+{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+.labels
+{
+    color: white;
+    font-size: 18px;
+    margin-left: -20px;
+    /* margin-right: 50px; */
+}
+#cusemail
+{
+ /* margin-left: 10px; */
+ padding: 5px 20px;
+}
+#cusphone
+{
+    /* margin-left: 10px; */
+ padding: 5px 20px;
+
+
+}
+#cusdes
+{
+    /* margin-left: 10px; */
+ padding: 5px 20px;
+
+
+}
+#labe
+{
+    margin-right: 70px;
+}
+#labd
+{
+    margin-right: 30px;
+}
+#labp
+{
+    margin-right: 3px;
+}
+#sub
+{
+    padding: 7px 20px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+#custitle
+{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
