@@ -1,31 +1,102 @@
 *{
-    margin:0px;
-    padding: 0px;
+    margin: 0px;
+    padding:0px ;
 }
+#navd{
+    display:flex;
+    /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../media/pexels-christina-morillo-1181253.jpg); */
+    /* background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../media/pexels-anna-tarazevich-7771976.jpg); */
+    /* background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../media/pexels-ekaterina-bolovtsova-6193081.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),  url(../media/pexels-christina.jpg);
+    /* background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),  url(../media/pexels-7772021.jpg); */
 
-#container{
-    margin-left: 40%;
-    margin-top: 10%;
-    border: 1px black solid;
-    margin-right: 40%;
-    padding: 40px;
-    /* box-shadow: grey ; */
-    box-shadow:10px 10px  grey   ;
-
+  
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 10px; */
 }
-#ans
+#logo
 {
-    background-color: orange;
-    padding: 20px;
-    font-size: large;
-    font-weight: 600;
-    /* border: 2px ora dotted ; */
-    box-shadow: 5px 4px rgb(204, 140, 20);
+    margin-top: 26px;
+    margin-left: 30px;
+    size: 16px ;
+    color: whitesmoke;
+    font-style: italic;
+
 }
-#head{
-    padding-left: 34%;
-    margin-top: 90px;
-    font-size: 50px;
-    color: rgb(77, 74, 74);
+#title
+{
+    /* padding:; */
+    border:1px solid transparent;
+    border-radius: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: #fff;
+    color: #000;
+}
+#weblist
+{
+    margin-left: 53%;
+}
+
+ul{
+
+    margin-top: 30px;
+}
+
+ul li 
+{
+    display: inline;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+ul li a 
+{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s ease;
+
+}
+ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}
+#subtitle
+{
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    color: #fff;;
+    font-size: 40px;
+    text-shadow: #fff;
+}
+#subtitle1
+{
+    
+    position: absolute;
+    top: 39%;
+    left:45%;
+    color: #000;
+    /* font-size: 40px; */
+    /* text-shadow: #fff; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: #fff;
 
 }

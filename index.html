@@ -4,70 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <link rel="stylesheet" href="./style/style.css"> -->
-    <style>*{
-        margin:0px;
-        padding: 0px;
-    }
-    
-    #container{
-        margin-left: 40%;
-        margin-top: 10%;
-        border: 1px black solid;
-        margin-right: 40%;
-        padding: 40px;
-        /* box-shadow: grey ; */
-        box-shadow:10px 10px  grey   ;
-    
-    }
-    #ans
-    {
-        background-color: orange;
-        padding: 20px;
-        font-size: large;
-        font-weight: 600;
-        /* border: 2px ora dotted ; */
-        box-shadow: 5px 4px rgb(204, 140, 20);
-    }
-    #head{
-        padding-left: 34%;
-        margin-top: 90px;
-        font-size: 50px;
-        color: rgb(77, 74, 74);
-    
-    }</style>
+    <title>KVL Label Solutions</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    <h1 id="head">Find Area of triangle</h1>
-    <form action="" id="container">
-        <label for="hei">Enter height of the triangle</label>
-        <br>
-        <input type="number" id="hei" placeholder="5">
-        <br>
-        <br>
-        <label for="wei">Enter width of the triangle</label>
-        <br>
-        <input type="number" id="wei" placeholder="5">
-        <br><br>
-        <button type="button" id="sub">Submit</button>
-        <br>
-        <br>
-        <div id="ans">
-        <p1 id="par">Area of triangle is :</p1>
+    <div id="navd">
+        <div id="logo">
+            <p1 id="title">KVL Label Solutions</p1>
+            <p1 id="subtitle"><q>It's about beyond labels</q></p1>
+            <p1 id="subtitle1"><a href="./webpages/products.html" style="text-decoration: none;color:black"> Cick here to visit our store</a></p1>
         </div>
-    </form>
-    <script >let h;
-        let w;
-        let area;
-        console.log("hello");
-        document.getElementById("sub").onclick=function()
-        {
-            h=document.getElementById("hei").value;
-            w=document.getElementById("wei").value;
-            area=0.5 * h* w ;
-            console.log(area);
-            document.getElementById("par").innerHTML="Area of triangle is :"+area;
-        }</script>
+        <nav id="weblist">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./webpages/products.html">Products</a></li>
+                <li><a href="./webpages/contactus.html">Countact Us</a></li>
+                <li><a href="./webpages/contactus.html">About Us</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>
